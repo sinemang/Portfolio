@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  padding: 40px;
+  text-align: center;
+  background: #020617;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+video {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255,255,255,0.15);
+}
