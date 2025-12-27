@@ -22,4 +22,27 @@ video {
   max-width: 900px;
   border-radius: 12px;
   box-shadow: 0 0 20px rgba(255,255,255,0.15);
+}.video-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.video-box {
+    max-width: 480px;
+    width: 100%;
+    text-align: center;
+}
+
+.video-box h2 {
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+video {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(255,255,255,0.2);
 }
