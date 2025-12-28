@@ -46,35 +46,44 @@ body {
 }
 
 /* ---------- VIDEO ---------- */
-/* VIDEO SECTION */
+/* ===== VIDEO FIX (MOBİL UYUMLU) ===== */
+
 .video-section {
     width: 100%;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    padding: 20px;
 }
 
-/* VIDEO WRAPPER */
 .video-wrapper {
     width: 100%;
-    max-width: 720px;   /* <<< MOBİL İÇİN KRİTİK */
-    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
-/* VIDEO */
 .video-wrapper video {
     width: 100%;
+    max-width: 320px;   /* 🔥 MOBİLDE KÜÇÜK GÖRÜNSÜN */
     height: auto;
     border-radius: 16px;
-    display: block;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
 }
 
-/* MASAÜSTÜ İÇİN BİRAZ BÜYÜT */
-@media (min-width: 1024px) {
-    .video-wrapper {
-        max-width: 900px;
+/* TABLET */
+@media (min-width: 600px) {
+    .video-wrapper video {
+        max-width: 500px;
     }
 }
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+    .video-wrapper video {
+        max-width: 800px;
+    }
+}
+
 
 /* ---------- HEADINGS ---------- */
 h2 {
