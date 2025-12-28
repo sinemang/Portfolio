@@ -139,5 +139,28 @@ body {
 .video-section {
     background-color: #ffffff !important;
 }
+/* 📱 Mobilde açık tema zorla */
+@media (max-width: 768px) {
 
+    body {
+        background-color: #ffffff !important;
+        color: #1a1a1a !important;
+    }
+
+    .section,
+    .video-section,
+    .card {
+        background-color: #ffffff !important;
+        color: #1a1a1a !important;
+    }
+
+    h1, h2, h3, p {
+        color: #1a1a1a !important;
+    }
+
+    /* Video çevresi */
+    .video-section video {
+        background-color: #ffffff !important;
+    }
+}
 
