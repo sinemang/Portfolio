@@ -92,3 +92,35 @@ footer {
     color: #777;
     font-size: 14px;
 }
+/* Video alanı */
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Video kutusu */
+.video-section .card {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Video boyutu */
+.video-section video {
+    width: 100%;
+    max-width: 700px;     /* ← Videonun gerçek boyutu */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* 📱 Mobil uyum */
+@media (max-width: 768px) {
+    .video-section video {
+        max-width: 100%;
+    }
+}
+
