@@ -122,5 +122,22 @@ footer {
     .video-section video {
         max-width: 100%;
     }
+
+    
+}/* ---- GLOBAL BACKGROUND FIX ---- */
+body {
+    background-color: #ffffff !important;
+    color: #1a1a1a;
 }
+
+/* Section'lar da beyaz olsun */
+.section {
+    background-color: #ffffff !important;
+}
+
+/* Video alanı da beyaz kalsın */
+.video-section {
+    background-color: #ffffff !important;
+}
+
 
