@@ -91,4 +91,14 @@ footer {
     padding: 40px 0;
     color: #777;
     font-size: 14px;
+}@media (max-width: 768px) {
+    .video-container video {
+        max-width: 100%;
+        height: auto;
+        border-radius: 14px;
+    }
+
+    .video-container {
+        padding: 10px;
+    }
 }
