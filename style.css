@@ -93,19 +93,28 @@ footer {
     font-size: 14px;
 }
 
-@media (max-width: 768px) {
-  .video-container {
-    padding: 12px !important;
-    margin: 0 auto !important;
-    max-width: 100% !important;
-  }
+/* 🔥 Video responsive fix */
+.video-section {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 
-  .video-container video {
-    width: 100% !important;
-    max-width: 100% !important;
-    height: auto !important;
-    border-radius: 14px !important;
-  }
+.video-section video {
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    border-radius: 16px;
+    display: block;
+}
+
+/* 📱 MOBİL İÇİN */
+@media (max-width: 768px) {
+    .video-section video {
+        max-width: 100%;
+        width: 100%;
+        height: auto;
+    }
 }
 
 
